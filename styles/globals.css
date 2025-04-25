@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #000000; /* true black background */
+  color: #ffffff; /* white text */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  @apply text-white px-[30px] py-[8px] rounded-3xl bg-[#222222] cursor-pointer hover:opacity-80 transition-all disabled:opacity-40 disabled:!bg-gray-600 disabled:cursor-not-allowed;
+}
+
+input,
+textarea,
+select {
+  background-color: #111111; /* near-black for inputs */
+  color: #ffffff;
+  border: 1px solid #333333;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #444444;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.slick-dots {
+  @apply !flex justify-start w-full;
+}
+
+.slick-dots .slick-active div {
+  @apply bg-[#444444]; /* dark gray instead of yellow */
+}
+
+.slick-dots div {
+  @apply !m-0 !mt-8;
+}
