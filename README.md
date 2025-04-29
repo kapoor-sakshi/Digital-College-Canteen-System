@@ -22,7 +22,7 @@ In addition to the core features taught by the course instructors, I added some 
 - Enhanced state management with Redux-Toolkit to optimize data flow between different components.
 - Implemented a user-friendly error handling mechanism to provide better guidance in case of possible errors.
 - Improved database queries for more efficient data processing with MongoDB.
-- Implemented the "Order Customization" feature, allowing users to personalize their orders.
+- Implemented the "Order Customization" feature, allowing users to personal## How to Use?ize their orders.
 - Designed an intuitive admin panel for menu management, order tracking, CSV feedback download and sales.
 - Enabled real-time order tracking and integrated a feedback system for improved customer interaction.
 
@@ -33,6 +33,10 @@ In addition to the core features taught by the course instructors, I added some 
 3. Start the project: `npm run dev`
 4. View the project in your browser at `http://localhost:3000`.
 
+## Images
+![image](https://github.com/user-attachments/assets/bc8031e3-2f09-4e7f-9e93-8d87fa1e77fc)
+
 
 Best regards,
 Sakshi Kapoor
+
