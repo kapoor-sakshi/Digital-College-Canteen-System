@@ -2,7 +2,7 @@
 
 Hello,
 
-I worked on the Food Ordering Project, which is a comprehensive web application developed using various technologies.
+I worked on the Digital College Canteen System, which is a comprehensive web application developed using various technologies.
 
 ## Project Content and Features
 
